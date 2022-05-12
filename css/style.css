@@ -447,23 +447,20 @@ body {
     color:#AFB1B8
 }
 
-.client:hover,
-.client:focus{
-    border-color: var(--blue-color);
-}
 
 .client-logo{
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
-    fill: #AFB1B8;
+    fill: currentColor;
     width: 160px;
     height: 60px;
 }
 
-.client-logo:hover,
-.client-logo:focus{
+.company> .client-logo:hover,
+.company> .client-logo:focus{
+    border-color: var(--blue-color);
     fill: var(--blue-color);
 }
 
